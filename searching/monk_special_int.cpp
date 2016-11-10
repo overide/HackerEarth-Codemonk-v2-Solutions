@@ -32,7 +32,7 @@ ll binary_search(ll start,ll end,ull key)
 		}
 		else
 			//sum of subsets of size k is >x so, obviously sum of subsets of size >k will be greater than x.
-			//so we need to search subset size <k.
+			//so we need to search subset of size <k.
 			end = mid-1;
 	}
 	return k;
